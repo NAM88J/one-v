@@ -1,0 +1,137 @@
+/* Light reset */
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* Main style */
+.wrap {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+p {
+    padding: 10px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/* Table style */
+.color1 {
+    background-color: #7673D9;
+}
+.color2 {
+    background-color: #9DB82E;
+}
+.color3 {
+    background-color: #819F00;
+}
+.color4 {
+    background-color: #710067;
+}
+.color5 {
+    background-color: #82217A;
+}
+.color6{
+    background-color: #AD009F;
+}
+.color7{
+    background-color: #9B6AD6;
+}
+
+.table {
+    width: 100%;
+}
+.table_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+}
+.table_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 150px;
+}
+.table_col.no-mh {
+    min-height: auto;
+}
+.col-150 {
+    width: 150px;
+}
+.col-auto {
+    width: calc(100% - 300px);
+}
+.col-60p {
+    width: 50%;
+}
+.col-50p {
+    width: 50%;
+}
+.col-40p {
+    width: 50%;
+}
+
+/* Table style */
+@media (max-width: 1024px) {
+    html,
+    body {
+        font-size: 18px;
+    }
+    .hide {
+        display: none;
+    }
+    .col-auto {
+        width: calc(100% - 150px);
+    }
+    .table_col {
+        min-height: 120px;
+    }
+}
+@media (max-width: 768px) {
+    html,
+    body {
+        font-size: 15px;
+    }
+    .hide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .table_col {
+        min-height: 80px;
+    }
+}

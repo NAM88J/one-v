@@ -96,13 +96,13 @@ p {
     width: calc(100% - 300px);
 }
 .col-60p {
-    width: 50%;
+    width: 60%;
 }
 .col-50p {
     width: 50%;
 }
 .col-40p {
-    width: 50%;
+    width: 40%;
 }
 
 /* Table style */

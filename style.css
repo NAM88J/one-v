@@ -131,7 +131,9 @@ p {
         display: -ms-flexbox;
         display: flex;
     }
-    .table_col {
+    .table_col,
+    p {
         min-height: 80px;
+        width: 100%;
     }
 }
